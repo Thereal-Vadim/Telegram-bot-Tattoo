@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # Инициализация бота
-bot_token = '7518530135:AAF0gCUDNeQZ5ZN2U3p2ynMg0woo16e4sME'
+bot_token = 'Token'
 bot = telebot.TeleBot(bot_token)
 
 # Глобальные переменные для хранения данных клиента
@@ -264,7 +264,7 @@ def update_preferred_dates(message):
 
 # Пересылка данных мастеру
 def send_to_master(message):
-    master_chat_id = 300633131  # Замените на chat_id мастера
+    master_chat_id = Chat_id  # Замените на chat_id мастера
     message_text = (f"Новая запись:\n"
                     f"Идея: {client_data['idea']}\n"
                     f"Стиль: {client_data['style']}\n"
