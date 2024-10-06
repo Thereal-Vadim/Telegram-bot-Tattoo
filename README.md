@@ -1,0 +1,2 @@
+# Telegram-bot-Tattoo
+ Developed a Telegram bot for a tattoo artist using Python and the telebot library. The bot allows customers to book a consultation by providing detailed information about their tattoo idea, style preferences, color, size and contact details. The process of interacting with the bot is intuitive and user-friendly, and all information about the appointment is automatically sent to the master.
